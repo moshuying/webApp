@@ -6,6 +6,11 @@ import "./registerServiceWorker";
 
 Vue.config.productionTip = false;
 
+import Vuejsonp from "vue-jsonp";
+Vue.use(Vuejsonp);
+
+import config from "./config/config";
+Vue.use(config);
 new Vue({
   router,
   store,

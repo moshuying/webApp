@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <homeView />
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view />
+    <router-view /> -->
   </div>
 </template>
-
+<script>
+import homeView from "@/views/homeView.vue";
+export default {
+  components: {
+    homeView
+  }
+};
+</script>
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
