@@ -30,8 +30,8 @@ module.exports = {
     https: false,
     hotOnly: false,
     proxy: {
-      "/?temo": {
-        target: "https://zk.sceea.cn",
+      "/ocrservice/advanced": {
+        target: "https://ocrapi-advanced.taobao.com",
         chageOrigin: true,
         ws: true
       }
